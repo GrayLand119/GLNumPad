@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3EC489D1C3E12F7004595BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC489C1C3E12F7004595BF /* main.m */; };
+		C3EC48A01C3E12F7004595BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC489F1C3E12F7004595BF /* AppDelegate.m */; };
+		C3EC48A31C3E12F7004595BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC48A21C3E12F7004595BF /* ViewController.m */; };
+		C3EC48A61C3E12F7004595BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EC48A41C3E12F7004595BF /* Main.storyboard */; };
+		C3EC48A91C3E12F7004595BF /* GLNumPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3EC48A71C3E12F7004595BF /* GLNumPad.xcdatamodeld */; };
+		C3EC48AB1C3E12F7004595BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EC48AA1C3E12F7004595BF /* Assets.xcassets */; };
+		C3EC48AE1C3E12F7004595BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EC48AC1C3E12F7004595BF /* LaunchScreen.storyboard */; };
+		C3EC48B91C3E12F7004595BF /* GLNumPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC48B81C3E12F7004595BF /* GLNumPadTests.m */; };
+		C3EC48C41C3E12F7004595BF /* GLNumPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC48C31C3E12F7004595BF /* GLNumPadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3EC48B51C3E12F7004595BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EC48901C3E12F7004595BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EC48971C3E12F7004595BF;
+			remoteInfo = GLNumPad;
+		};
+		C3EC48C01C3E12F7004595BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EC48901C3E12F7004595BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EC48971C3E12F7004595BF;
+			remoteInfo = GLNumPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3EC48981C3E12F7004595BF /* GLNumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLNumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EC489C1C3E12F7004595BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3EC489E1C3E12F7004595BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3EC489F1C3E12F7004595BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3EC48A11C3E12F7004595BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3EC48A21C3E12F7004595BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3EC48A51C3E12F7004595BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3EC48A81C3E12F7004595BF /* GLNumPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GLNumPad.xcdatamodel; sourceTree = "<group>"; };
+		C3EC48AA1C3E12F7004595BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3EC48AD1C3E12F7004595BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3EC48AF1C3E12F7004595BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EC48B41C3E12F7004595BF /* GLNumPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLNumPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EC48B81C3E12F7004595BF /* GLNumPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNumPadTests.m; sourceTree = "<group>"; };
+		C3EC48BA1C3E12F7004595BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EC48BF1C3E12F7004595BF /* GLNumPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLNumPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EC48C31C3E12F7004595BF /* GLNumPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNumPadUITests.m; sourceTree = "<group>"; };
+		C3EC48C51C3E12F7004595BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3EC48951C3E12F7004595BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48B11C3E12F7004595BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48BC1C3E12F7004595BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3EC488F1C3E12F7004595BF = {
+			isa = PBXGroup;
+			children = (
+				C3EC489A1C3E12F7004595BF /* GLNumPad */,
+				C3EC48B71C3E12F7004595BF /* GLNumPadTests */,
+				C3EC48C21C3E12F7004595BF /* GLNumPadUITests */,
+				C3EC48991C3E12F7004595BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3EC48991C3E12F7004595BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC48981C3E12F7004595BF /* GLNumPad.app */,
+				C3EC48B41C3E12F7004595BF /* GLNumPadTests.xctest */,
+				C3EC48BF1C3E12F7004595BF /* GLNumPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3EC489A1C3E12F7004595BF /* GLNumPad */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC489E1C3E12F7004595BF /* AppDelegate.h */,
+				C3EC489F1C3E12F7004595BF /* AppDelegate.m */,
+				C3EC48A11C3E12F7004595BF /* ViewController.h */,
+				C3EC48A21C3E12F7004595BF /* ViewController.m */,
+				C3EC48A41C3E12F7004595BF /* Main.storyboard */,
+				C3EC48AA1C3E12F7004595BF /* Assets.xcassets */,
+				C3EC48AC1C3E12F7004595BF /* LaunchScreen.storyboard */,
+				C3EC48AF1C3E12F7004595BF /* Info.plist */,
+				C3EC48A71C3E12F7004595BF /* GLNumPad.xcdatamodeld */,
+				C3EC489B1C3E12F7004595BF /* Supporting Files */,
+			);
+			path = GLNumPad;
+			sourceTree = "<group>";
+		};
+		C3EC489B1C3E12F7004595BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC489C1C3E12F7004595BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3EC48B71C3E12F7004595BF /* GLNumPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC48B81C3E12F7004595BF /* GLNumPadTests.m */,
+				C3EC48BA1C3E12F7004595BF /* Info.plist */,
+			);
+			path = GLNumPadTests;
+			sourceTree = "<group>";
+		};
+		C3EC48C21C3E12F7004595BF /* GLNumPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC48C31C3E12F7004595BF /* GLNumPadUITests.m */,
+				C3EC48C51C3E12F7004595BF /* Info.plist */,
+			);
+			path = GLNumPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3EC48971C3E12F7004595BF /* GLNumPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EC48C81C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPad" */;
+			buildPhases = (
+				C3EC48941C3E12F7004595BF /* Sources */,
+				C3EC48951C3E12F7004595BF /* Frameworks */,
+				C3EC48961C3E12F7004595BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLNumPad;
+			productName = GLNumPad;
+			productReference = C3EC48981C3E12F7004595BF /* GLNumPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3EC48B31C3E12F7004595BF /* GLNumPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EC48CB1C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPadTests" */;
+			buildPhases = (
+				C3EC48B01C3E12F7004595BF /* Sources */,
+				C3EC48B11C3E12F7004595BF /* Frameworks */,
+				C3EC48B21C3E12F7004595BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EC48B61C3E12F7004595BF /* PBXTargetDependency */,
+			);
+			name = GLNumPadTests;
+			productName = GLNumPadTests;
+			productReference = C3EC48B41C3E12F7004595BF /* GLNumPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3EC48BE1C3E12F7004595BF /* GLNumPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EC48CE1C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPadUITests" */;
+			buildPhases = (
+				C3EC48BB1C3E12F7004595BF /* Sources */,
+				C3EC48BC1C3E12F7004595BF /* Frameworks */,
+				C3EC48BD1C3E12F7004595BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EC48C11C3E12F7004595BF /* PBXTargetDependency */,
+			);
+			name = GLNumPadUITests;
+			productName = GLNumPadUITests;
+			productReference = C3EC48BF1C3E12F7004595BF /* GLNumPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3EC48901C3E12F7004595BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GrayLand;
+				TargetAttributes = {
+					C3EC48971C3E12F7004595BF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C3EC48B31C3E12F7004595BF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C3EC48971C3E12F7004595BF;
+					};
+					C3EC48BE1C3E12F7004595BF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C3EC48971C3E12F7004595BF;
+					};
+				};
+			};
+			buildConfigurationList = C3EC48931C3E12F7004595BF /* Build configuration list for PBXProject "GLNumPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3EC488F1C3E12F7004595BF;
+			productRefGroup = C3EC48991C3E12F7004595BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3EC48971C3E12F7004595BF /* GLNumPad */,
+				C3EC48B31C3E12F7004595BF /* GLNumPadTests */,
+				C3EC48BE1C3E12F7004595BF /* GLNumPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3EC48961C3E12F7004595BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EC48AE1C3E12F7004595BF /* LaunchScreen.storyboard in Resources */,
+				C3EC48AB1C3E12F7004595BF /* Assets.xcassets in Resources */,
+				C3EC48A61C3E12F7004595BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48B21C3E12F7004595BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48BD1C3E12F7004595BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3EC48941C3E12F7004595BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EC48A31C3E12F7004595BF /* ViewController.m in Sources */,
+				C3EC48A91C3E12F7004595BF /* GLNumPad.xcdatamodeld in Sources */,
+				C3EC48A01C3E12F7004595BF /* AppDelegate.m in Sources */,
+				C3EC489D1C3E12F7004595BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48B01C3E12F7004595BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EC48B91C3E12F7004595BF /* GLNumPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EC48BB1C3E12F7004595BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EC48C41C3E12F7004595BF /* GLNumPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3EC48B61C3E12F7004595BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EC48971C3E12F7004595BF /* GLNumPad */;
+			targetProxy = C3EC48B51C3E12F7004595BF /* PBXContainerItemProxy */;
+		};
+		C3EC48C11C3E12F7004595BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EC48971C3E12F7004595BF /* GLNumPad */;
+			targetProxy = C3EC48C01C3E12F7004595BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3EC48A41C3E12F7004595BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EC48A51C3E12F7004595BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3EC48AC1C3E12F7004595BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EC48AD1C3E12F7004595BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3EC48C61C3E12F7004595BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3EC48C71C3E12F7004595BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3EC48C91C3E12F7004595BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLNumPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3EC48CA1C3E12F7004595BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLNumPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3EC48CC1C3E12F7004595BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLNumPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLNumPad.app/GLNumPad";
+			};
+			name = Debug;
+		};
+		C3EC48CD1C3E12F7004595BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLNumPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLNumPad.app/GLNumPad";
+			};
+			name = Release;
+		};
+		C3EC48CF1C3E12F7004595BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLNumPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLNumPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3EC48D01C3E12F7004595BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLNumPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLand.GLNumPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLNumPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3EC48931C3E12F7004595BF /* Build configuration list for PBXProject "GLNumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EC48C61C3E12F7004595BF /* Debug */,
+				C3EC48C71C3E12F7004595BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EC48C81C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EC48C91C3E12F7004595BF /* Debug */,
+				C3EC48CA1C3E12F7004595BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3EC48CB1C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EC48CC1C3E12F7004595BF /* Debug */,
+				C3EC48CD1C3E12F7004595BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3EC48CE1C3E12F7004595BF /* Build configuration list for PBXNativeTarget "GLNumPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EC48CF1C3E12F7004595BF /* Debug */,
+				C3EC48D01C3E12F7004595BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3EC48A71C3E12F7004595BF /* GLNumPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3EC48A81C3E12F7004595BF /* GLNumPad.xcdatamodel */,
+			);
+			currentVersion = C3EC48A81C3E12F7004595BF /* GLNumPad.xcdatamodel */;
+			path = GLNumPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3EC48901C3E12F7004595BF /* Project object */;
+}
