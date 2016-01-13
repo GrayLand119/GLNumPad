@@ -10,10 +10,10 @@
 
 
 typedef NS_ENUM(NSUInteger, GLNumPadEvent) {
-    GLNumPadEventOnNum,
-    GLNumPadEventOnDone,
-    GLNumPadEventOnFinish,
-    GLNumPadEventOnBackspace
+    GLNumPadEventOnNum, // 点击数字
+    GLNumPadEventOnDone, // 点击完成
+    GLNumPadEventOnFinish, // 点击空白处和收起键盘按钮
+    GLNumPadEventOnBackspace // 点击删除
 };
 
 typedef void (^GLNumPadOnEventBlock)(GLNumPadEvent event, NSString *inputString);

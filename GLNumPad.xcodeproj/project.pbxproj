@@ -10,6 +10,8 @@
 		C32FDD9F1C3E142400A06FB4 /* GLNumPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FDD9E1C3E142400A06FB4 /* GLNumPadView.m */; };
 		C32FDDA11C3E368900A06FB4 /* GLNumIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32FDDA01C3E368900A06FB4 /* GLNumIcon.xcassets */; };
 		C32FDDA41C3E442D00A06FB4 /* UIImage+GLTint.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FDDA31C3E442D00A06FB4 /* UIImage+GLTint.m */; };
+		C35DFBA91C4683F40090ADE7 /* GLNumPad in Resources */ = {isa = PBXBuildFile; fileRef = C35DFBA71C4683F40090ADE7 /* GLNumPad */; settings = {ASSET_TAGS = (); }; };
+		C35DFBAA1C4683F40090ADE7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C35DFBA81C4683F40090ADE7 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		C3EC489D1C3E12F7004595BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC489C1C3E12F7004595BF /* main.m */; };
 		C3EC48A01C3E12F7004595BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC489F1C3E12F7004595BF /* AppDelegate.m */; };
 		C3EC48A31C3E12F7004595BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC48A21C3E12F7004595BF /* ViewController.m */; };
@@ -44,6 +46,8 @@
 		C32FDDA01C3E368900A06FB4 /* GLNumIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GLNumIcon.xcassets; sourceTree = "<group>"; };
 		C32FDDA21C3E442D00A06FB4 /* UIImage+GLTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GLTint.h"; sourceTree = "<group>"; };
 		C32FDDA31C3E442D00A06FB4 /* UIImage+GLTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GLTint.m"; sourceTree = "<group>"; };
+		C35DFBA71C4683F40090ADE7 /* GLNumPad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GLNumPad; sourceTree = "<group>"; };
+		C35DFBA81C4683F40090ADE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C3EC48981C3E12F7004595BF /* GLNumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLNumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EC489C1C3E12F7004595BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3EC489E1C3E12F7004595BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		C3EC489B1C3E12F7004595BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C35DFBA71C4683F40090ADE7 /* GLNumPad */,
+				C35DFBA81C4683F40090ADE7 /* README.md */,
 				C3EC489C1C3E12F7004595BF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -268,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EC48AE1C3E12F7004595BF /* LaunchScreen.storyboard in Resources */,
+				C35DFBA91C4683F40090ADE7 /* GLNumPad in Resources */,
 				C3EC48AB1C3E12F7004595BF /* Assets.xcassets in Resources */,
 				C32FDDA11C3E368900A06FB4 /* GLNumIcon.xcassets in Resources */,
 				C3EC48A61C3E12F7004595BF /* Main.storyboard in Resources */,
@@ -298,6 +305,7 @@
 				C32FDD9F1C3E142400A06FB4 /* GLNumPadView.m in Sources */,
 				C3EC48A31C3E12F7004595BF /* ViewController.m in Sources */,
 				C3EC48A91C3E12F7004595BF /* GLNumPad.xcdatamodeld in Sources */,
+				C35DFBAA1C4683F40090ADE7 /* README.md in Sources */,
 				C3EC48A01C3E12F7004595BF /* AppDelegate.m in Sources */,
 				C3EC489D1C3E12F7004595BF /* main.m in Sources */,
 				C32FDDA41C3E442D00A06FB4 /* UIImage+GLTint.m in Sources */,
