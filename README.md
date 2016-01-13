@@ -4,14 +4,16 @@
 >使用Block代替代理事件,方便集中代码
 
 >回调类型:
-	>typedef NS_ENUM(NSUInteger, GLNumPadEvent) {
+``` objectivec
+typedef NS_ENUM(NSUInteger, GLNumPadEvent) {
     GLNumPadEventOnNum, // 点击数字
     GLNumPadEventOnDone, // 点击完成
     GLNumPadEventOnFinish, // 点击空白处和收起键盘按钮
     GLNumPadEventOnBackspace // 点击删除
 };
-``` objectivec
+```
 
+``` objectivec
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -55,7 +57,6 @@
 }
 
 ```
-
 ##其他
 刚转行做IOS..练练手,写得不好的地方请勿见笑^.^~~
 
