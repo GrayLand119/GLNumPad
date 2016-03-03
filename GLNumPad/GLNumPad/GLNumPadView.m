@@ -15,6 +15,8 @@
 
 @interface GLNumPadView()
 
+//@property (nonatomic, strong) UIButton *clientArea;
+
 @end
 
 
@@ -37,19 +39,23 @@
 {
     _numPadSize = numPadSize;
     
-    [self resetFrame];
+    [self resetSubView];
 }
 
 - (void)initializeView
 {
-    [self resetFrame];
+    [self resetSubView];
     
     self.backgroundColor = [UIColor whiteColor];
     self.userInteractionEnabled = YES;
 }
 
-- (void)resetFrame
+- (void)resetSubView
 {
+    // remove all
+    [self.subviews respondsToSelector:@selector(removeFromSuperview)];
+    
+    // add new
     self.frame = CGRectMake(0, kScreenHeight - _numPadSize.height, _numPadSize.width, _numPadSize.height);
     
     float boardWidth    = 0.5;

@@ -27,12 +27,12 @@
         switch (event) {
             case GLNumPadEventOnNum:
             {
-                textF.text = [NSString stringWithFormat:@"%@%@", textF.text, inputString];
+                [textF insertText:inputString];
             }break;
                 
             case GLNumPadEventOnBackspace:
             {
-                textF.text = [textF.text substringToIndex:textF.text.length >= 1 ? textF.text.length - 1 : 0];
+                [textF deleteBackward];
             }break;
                 
             case GLNumPadEventOnFinish:
